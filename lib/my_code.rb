@@ -9,7 +9,7 @@ def map(source_array)
 end
 
 def reduce(source_array, starting_value = nil)
-  total = 0 + starting_value
+  total = starting_value
   counter = 0
   while counter < source_array.length
     total += yield(source_array[counter])
