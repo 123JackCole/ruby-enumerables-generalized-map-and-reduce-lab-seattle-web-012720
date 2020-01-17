@@ -17,5 +17,6 @@ def reduce(source_array, starting_value = nil)
       total += yield(source_array[counter])
       counter += 1
     end
+  end
   new_array
 end
