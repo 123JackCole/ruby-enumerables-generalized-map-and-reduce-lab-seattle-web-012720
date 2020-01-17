@@ -12,7 +12,7 @@ def reduce(source_array, starting_value = 0)
   new_array = []
   counter = starting_value
   while
-  
-end
+    
+  end
   new_array
 end
