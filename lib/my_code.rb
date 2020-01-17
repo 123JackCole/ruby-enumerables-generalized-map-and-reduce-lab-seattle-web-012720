@@ -9,10 +9,11 @@ def map(source_array)
 end
 
 def reduce(source_array, starting_value = 0)
-  new_array = []
-  counter = starting_value
+  total = starting_value
+  counter = 0
   while
-    
+    total = yield(source_array[])
+    counter += 1
   end
   new_array
 end
