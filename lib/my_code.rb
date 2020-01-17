@@ -8,8 +8,8 @@ def map(source_array)
   new_array
 end
 
-def reduce(source_array, starting_value = 0)
-  total = starting_value
+def reduce(source_array, starting_value = nil)
+  total = 0 + starting_value
   counter = 0
   while counter < source_array.length
     total += yield(source_array[counter])
